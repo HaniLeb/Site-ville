@@ -1,0 +1,60 @@
+header{
+    background-image: url(img/header.jpg);
+    background-size: cover;
+    height: 650px;
+    /* Permet de repositionner l'image de fond */
+    background-position: 0 70%;
+}
+
+header nav ul li{
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+section article p{
+    text-align: justify;
+}
+
+.photo{
+    height: 600px;
+    /* Permet d'éviter la déformation de l'image */
+    object-fit: cover;
+}
+
+.img-square{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 992px){
+    #reverse-article{
+        /* Permet de changer l'ordre de placement */
+        flex-direction: column-reverse;
+    }
+}
+
+.photo2{
+    height: 500px;
+    object-fit: cover;
+}
+
+.img-square2{
+    width: 200px;
+    object-fit: cover;
+}
+
+footer{
+    height: 70px;
+}
+footer p {
+    color: white;
+    padding: 20px;
+    margin: 0;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+        <title>bootstrap</title>
+    </head>
+    <body>
+        <header>
+            <!-- Une classe "container" contient tout les éléments -->
+            <div class="container">
+                <!-- La class "row" met tout les éléments à l'horizontal -->
+                <!-- La classe "justify-content-center" permet de centré les éléments -->
+                <nav class="row justify-content-center">
+                    <!-- Une classe "col-8"  prend un espace de 8 colonnes -->
+                    <div class="col-8 mt-3">
+
+                        <ul class="row">
+                            <li class="col-3">
+                                <a href="#propos">A propos</a>
+                            </li>
+                            <li class="col-3">
+                                <a href="#voir">A voir</a>
+                            </li>
+                            <li class="col-3">
+                                <a href="#manger">A manger</a>
+                            </li>
+                            <li class="col-3">
+                                <a href="#plus">En plus</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id=propos class="container mt-5">
+                <h2 class="text-center">A propos</h2>
+                
+                <div class="row justify-content-center mt-5">
+
+                    <article class="col-8">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Ullam deleniti possimus atque eum eius consequuntur dolor quis odit dolorum! 
+                            Placeat laborum quae adipisci beatae fugit sint ipsa expedita excepturi! Ullam!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Totam aliquid eum quidem, dolore recusandae laboriosam sed deserunt mollitia 
+                            impedit iusto quae voluptatem enim dolorem repellendus porro! 
+                            Ab nobis eos rem?
+                        </p>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- La class "container" affiche sur toute la largeur de l'écran peu importe sa taille -->
+            <section class="container-fluid mt-5">
+
+                <!-- La class "align-items-center" permet de centré les élments sur l'axe vertical -->
+                <div class="row align-items-center">
+                    <!-- La class "p" retire ou ajoute du padding -->
+                    <div class="col-lg-8 p-0">
+                        <!-- La class "img-fluid" permet à l'image d'avoir un taille de 100%" -->
+                        <!-- La class "w-"(25/50/75/100) permet de prendre 100% de l'espace dispo " -->
+                        <img class="img-fluid w-100 photo" src="img/image1.jpg" alt="">
+                    </div>
+
+                    <article class="col-lg-4">
+                        <h3 class="text-center">Maecenas</h3>
+                        <p class="p-5">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Eveniet soluta enim numquam magnam debitis non assumenda ducimus, 
+                            nam earum tempore possimus temporibus nobis ut quos iste, 
+                            provident consequuntur autem tempora?
+                        </p>
+                    </article>
+                </div>
+
+            </section>
+
+            <!-- La class "container" affiche sur toute la largeur de l'écran peu importe sa taille -->
+            <section class="container-fluid">
+
+                <!-- La class "align-items-center" permet de centré les élments sur l'axe vertical -->
+                <div class="row align-items-center" id="reverse-article">
+
+                    <article class="col-lg-4">
+                        <h3 class="text-center">Quisque Pulvinar</h3>
+                        <p class="p-5">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Eveniet soluta enim numquam magnam debitis non assumenda ducimus, 
+                            nam earum tempore possimus temporibus nobis ut quos iste, 
+                            provident consequuntur autem tempora?
+                        </p>
+                    </article>
+
+                    <!-- La class "p" retire ou ajoute du padding -->
+                    <div class="col-lg-8 p-0">
+                        <!-- La class "img-fluid" permet à l'image d'avoir une taille de 100%" -->
+                        <!-- La class "w-"(25/50/75/100) permet de prendre 100% de l'espace dispo " -->
+                        <img class="img-fluid w-100 photo" src="img/image2.jpg" alt="">
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="voir" class="container mt-5">
+
+                <h2 class="text-center">A voir</h2>
+
+                <div class="row justify-content-center">
+                    <article class="col-8">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Eveniet soluta enim numquam magnam debitis non assumenda ducimus, 
+                            nam earum tempore possimus temporibus nobis ut quos iste, 
+                            provident consequuntur autem tempora?
+                        </p>
+                    </article>
+                </div>
+                
+            </section>
+
+            <section class="mt-5">
+                <img class="img-fluid w-100 photo" src="img/image3.jpg" alt="">
+            </section>
+
+            <section id="manger" class="container mt-5">
+                <h2 class="text-center">A manger</h2>
+
+                <div class="row justify-content-center">
+                    <article class="col-8">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Eveniet soluta enim numquam magnam debitis non assumenda ducimus, 
+                            nam earum tempore possimus temporibus nobis ut quos iste, 
+                            provident consequuntur autem tempora?
+                        </p>
+                    </article>
+                </div>
+
+            </section>
+
+            <section class="container mt-5">
+
+                <article class="row justify-content-center">
+
+                    <div class="col-11">
+
+                        <div class="row justify-content-between">
+                            <!-- La classe "col-lg-3" est un breakpoint,
+                                 qui arriver à une taille d'éran donné (992px) modifie la disposition des éléments -->
+                            <div class="col-lg-3 text-center">
+                                <!-- La class rounded-circle permet de mettre un élément en forme ronde -->
+                                <img class="img-square rounded-circle" src="img/image4.jpg" alt="">
+                            </div>
+                            <div class="col-lg-3 text-center">
+                                <img class="img-square rounded-circle" src="img/image5.jpg" alt="">
+                            </div>
+                            <div class="col-lg-3 text-center">
+                                <img class="img-square rounded-circle" src="img/image6.jpg" alt="">
+                            </div>
+                            <div class="col-lg-3 text-center">
+                                <img class="img-square rounded-circle" src="img/image8.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </section>
+
+            <section class="mt-5">
+                <img class="img-fluid w-100 photo2" src="img/image7.jpg" alt="">
+            </section>
+
+            <section id="plus" class="container mt-5">
+                <h2 class="text-center">En plus</h2>
+
+                <div class="row justify-content-center">
+                    <article class="col-8">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Quasi magnam eos temporibus a sunt, expedita non nam autem quis, 
+                            quidem incidunt nulla aliquam obcaecati illum quibusdam quae labore inventore ea.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="container mt-5">
+
+                <article class="row justify-content-center">
+
+                    <div class="col-11">
+
+                        <div class="row justify-content-between">
+                            <div class="col-lg-3 text-center">
+                                <img class="img-square" src="img/image9.jpg" alt="">
+                            </div>
+                            <div class="col-lg-3 text-center">
+                                <img class="img-square" src="img/image10.jpg" alt="">
+                            </div>
+                            <div class="col-lg-3 text-center">
+                                <img class="img-square" src="img/image11.jpg" alt="">
+                            </div>
+                            <div class="col-lg-3 text-center">
+                                <img class="img-square" src="img/image12.jpg" alt="">
+                            </div>
+                        </div>
+    
+                    </div>
+                </article>
+
+            </section>
+        </main>
+
+        <!-- La class "bg-primary" permet de mettre une couleur de fond -->
+        <footer class="text-center bg-primary">
+            <p>Mentions légal, Tous droits réservés</p>
+        </footer>
+
+    </body>
+</html>
